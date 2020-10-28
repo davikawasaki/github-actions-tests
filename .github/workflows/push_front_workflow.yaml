@@ -2,8 +2,6 @@ name: Dump on front pushes
 
 on:
   push:
-    tags:
-      - '*dev*'
     paths:
       - 'packages/front/*/*'
 
