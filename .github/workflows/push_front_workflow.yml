@@ -1,5 +1,9 @@
+name: Dump on front pushes
+
 on:
   push:
+    branches:
+      - main
     paths:
       - 'packages/front/*-web'
 
